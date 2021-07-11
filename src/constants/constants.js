@@ -1,15 +1,5 @@
 export const projects = [
   {
-    title: "emongg.gg",
-    description:
-      "Using HTML, CSS and JavaScript I've made an unofficial website for one of the most loved Overwatch streamers on Twitch, showcasing his gameplay, socials and friends.",
-    image: "/images/1.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
-    source: "https://sebastiand88.github.io/emongg.gg/",
-    visit: "https://github.com/sebastiand88/emongg.gg",
-    id: 0,
-  },
-  {
     title: "GitHub User Finder",
     description:
       "With the help of HTML, MaterializeCSS, JavaScript and GitHub API you can search for any user and their public repos.",
@@ -17,6 +7,16 @@ export const projects = [
     tags: ["HTML", "Materialize", "JavaScript"],
     source: "https://sebastiand88.github.io/githubFinder/",
     visit: "https://github.com/sebastiand88/githubFinder",
+    id: 0,
+  },
+  {
+    title: "Quiz Time!",
+    description:
+      "This React Trivia application was one of the funest projects I've done so far. Just enter your name and have fun.",
+    image: "/images/5.jpg",
+    tags: ["React"],
+    source: "https://react-quiz-time-app.netlify.app/",
+    visit: "https://github.com/sebastiand88/react-quiz",
     id: 1,
   },
   {

@@ -18,7 +18,7 @@ const Hero = () => (
       <SectionText>
         I'm Sebastian Damian, a self-taught web developer based in Glasgow.
         After 10+ years of working in hospitality I decided to change my career;
-        and what better field for me to chose from than a career in web
+        and what better field for me to choose from than a career in web
         development as I've been passionate about computers and new technology
         all my life. So I decided to give coding a try.
       </SectionText>
