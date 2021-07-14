@@ -14,7 +14,7 @@ export const projects = [
     description:
       "This React Trivia application was one of the funest projects I've done so far. Just enter your name and have fun.",
     image: "/images/5.jpg",
-    tags: ["React"],
+    tags: ["React", "CSS"],
     source: "https://react-quiz-time-app.netlify.app/",
     visit: "https://github.com/sebastiand88/react-quiz",
     id: 1,
@@ -24,8 +24,8 @@ export const projects = [
     description:
       "A responsive website made to raise awareness and contribute in the fight against global warming, ocean pollution and CO2 gas emissions.",
     image: "/images/3.jpg",
-    tags: ["React"],
-    source: "https://kind-swirles-7ca4df.netlify.app/",
+    tags: ["React", "CSS"],
+    source: "https://react-echo.netlify.app/",
     visit: "https://github.com/sebastiand88/ECHO",
     id: 2,
   },
@@ -34,8 +34,8 @@ export const projects = [
     description:
       "A responsive website made to raise awareness and contribute in the fight against global warming, ocean pollution and CO2 gas emissions.",
     image: "/images/4.jpg",
-    tags: ["React"],
-    source: "https://dazzling-ritchie-f5c353.netlify.app/",
+    tags: ["React", "CSS"],
+    source: "https://saving-earth.netlify.app/",
     visit: "https://github.com/sebastiand88/Saving_Earth",
     id: 3,
   },
