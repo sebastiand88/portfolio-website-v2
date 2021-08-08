@@ -50,12 +50,13 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Notflix",
-    description: "",
-    image: "/images/notflix.jpg",
+    title: "Business Website",
+    description:
+      "This React website is easily customizable to fit a large number of different clients from a personal portfolio to small and medium businesses.",
+    image: "/images/business.jpg",
     tags: ["React", "SCSS"],
-    source: "https://www.google.com/",
-    visit: "https://www.google.com/",
+    source: "https://react-business-website.netlify.app/",
+    visit: "https://github.com/sebastiand88/react-business-website",
     id: 5,
   },
 ];
