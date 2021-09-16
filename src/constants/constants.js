@@ -32,11 +32,11 @@ export const projects = [
   {
     title: "Tech Store",
     description:
-      "A responsive website made to raise awareness and contribute in the fight against global warming, ocean pollution and CO2 gas emissions.",
-    image: "/images/earth.jpg",
-    tags: ["React", "CSS"],
-    source: "https://saving-earth.netlify.app/",
-    visit: "https://github.com/sebastiand88/Saving_Earth",
+      "A responsive tech store website made for gamers by gamers. Chose your products add them to the basket, enter your details and payment info and enjoy your new tech.",
+    image: "/images/tech-store.jpg",
+    tags: ["React", "Materialize, Bootstrap", "Commerce.js"],
+    source: "https://react-tech-store-portfolioproject.netlify.app/",
+    visit: "https://github.com/sebastiand88/tech-store",
     id: 3,
   },
   {
