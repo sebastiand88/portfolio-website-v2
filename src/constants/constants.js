@@ -30,7 +30,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Saving Earth",
+    title: "Tech Store",
     description:
       "A responsive website made to raise awareness and contribute in the fight against global warming, ocean pollution and CO2 gas emissions.",
     image: "/images/earth.jpg",
