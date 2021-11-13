@@ -75,7 +75,8 @@ const Timeline = () => {
         independently, and I'm always enthusiastic and eager to learn new
         skills. I am a dependable person who is great at time-management, I like
         to use my creativity in problem-solving and being able to handle
-        multiple tasks on a daily basis.
+        multiple tasks on a daily basis. I am willing to relocate for the right
+        opportunity.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
