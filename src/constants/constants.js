@@ -20,13 +20,13 @@ export const projects = [
     id: 1,
   },
   {
-    title: "ECHO",
+    title: "Green Team",
     description:
-      "Using React Router and Styled Components I've made a fully responsive website for an eco-friendly energy provider showcasing their ambitions and other services.",
+      "Using Gatsby and React-Bootstrap I've made a fully responsive website for an eco-friendly energy provider showcasing their energy plans and future goals.",
     image: "/images/echo.jpg",
-    tags: ["React", "CSS"],
-    source: "https://react-echo.netlify.app/",
-    visit: "https://github.com/sebastiand88/ECHO",
+    tags: ["React, GatsbyJS", "React-Bootstrap"],
+    source: "https://green-team-gatsby.netlify.app/",
+    visit: "https://github.com/sebastiand88/Green-Team-Gatsby",
     id: 2,
   },
   {
