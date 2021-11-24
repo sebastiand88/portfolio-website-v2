@@ -10,13 +10,13 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Quiz Time!",
+    title: "Geek Blog",
     description:
-      "This React Trivia application was one of the funest projects I've done so far. Just enter your name and have fun.",
-    image: "/images/quiz.jpg",
-    tags: ["React", "CSS"],
-    source: "https://react-quiz-time-app.netlify.app/",
-    visit: "https://github.com/sebastiand88/react-quiz",
+      "Tech review blog made with GraphCMS allowing moderators to post new tech reviews and moderate the comments before getting posted.",
+    image: "/images/Blog-Geek.png",
+    tags: ["React", "Next.JS", "Tailwind-CSS", "GraphQL", "GraphCMS"],
+    source: "https://geek-blog-nine.vercel.app/",
+    visit: "https://github.com/sebastiand88/geek-blog",
     id: 1,
   },
   {
@@ -58,6 +58,16 @@ export const projects = [
     source: "https://react-business-website.netlify.app/",
     visit: "https://github.com/sebastiand88/react-business-website",
     id: 5,
+  },
+  {
+    title: "Quiz Time!",
+    description:
+      "This React Trivia application was one of the funest projects I've done so far. Just enter your name and have fun.",
+    image: "/images/quiz.jpg",
+    tags: ["React", "CSS"],
+    source: "https://react-quiz-time-app.netlify.app/",
+    visit: "https://github.com/sebastiand88/react-quiz",
+    id: 6,
   },
 ];
 
