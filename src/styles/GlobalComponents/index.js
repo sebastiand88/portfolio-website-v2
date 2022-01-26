@@ -85,10 +85,7 @@ export const SectionDivider = styled.div`
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
-  background: ${props =>
-    props.colorAlt
-      ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
-      : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+  background: #fff;
 
   margin: ${props => (props.divider ? "4rem 0" : "")};
 
@@ -217,10 +214,8 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) =>
-    alt
-      ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
-      : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+  background: #0f1624;
+  border: 1px solid #fff;
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
   transition: 0.4s ease;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
@@ -228,28 +223,10 @@ export const ButtonFront = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: ${({ disabled }) =>
-    disabled
-      ? "inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)"
-      : "none"};
 
   &:hover {
-    opacity: 0;
-  }
-  &:focus {
-    outline: none;
-  }
-  &:active {
-    opacity: 1;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
-      inset 0px 0px 4px rgba(20, 20, 55, 0.3);
-  }
-
-  &:disabled {
-    background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
-    opacity: 0.5;
-    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
-      inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    color: #fff;
+    background: #212d45;
   }
 
   @media ${props => props.theme.breakpoints.md} {

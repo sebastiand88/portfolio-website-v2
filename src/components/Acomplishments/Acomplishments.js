@@ -1,6 +1,6 @@
 import React from "react";
-import { SiCsharp, SiGatsby, SiNextDotJs } from "react-icons/si";
-import { FaPhp, FaReact } from "react-icons/fa";
+import { SiPython, SiDjango, SiNextDotJs } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
@@ -11,8 +11,11 @@ const data = [
     number: <SiNextDotJs size="5rem" />,
     text: "Improve my knowledge in Next.js ",
   },
-  { number: <SiGatsby size="5rem" />, text: "Make some projects using Gatsby" },
-  { number: <SiCsharp size="5rem" />, text: "Learn the fundamentals of C#" },
+  {
+    number: <SiPython size="5rem" />,
+    text: "Learn the fundamentals of Python",
+  },
+  { number: <SiDjango size="5rem" />, text: "Make some projects using Django" },
 ];
 
 const Acomplishments = () => (

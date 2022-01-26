@@ -29,16 +29,7 @@ export const projects = [
     visit: "https://github.com/sebastiand88/Green-Team-Gatsby",
     id: 2,
   },
-  {
-    title: "Tech Store",
-    description:
-      "A responsive tech store website made for gamers by gamers. Chose your products add them to the basket, enter your details and payment info and enjoy your new tech.",
-    image: "/images/tech-store.jpg",
-    tags: ["React", "Materialize, Bootstrap", "Commerce.js"],
-    source: "https://react-tech-store-portfolioproject.netlify.app/",
-    visit: "https://github.com/sebastiand88/tech-store",
-    id: 3,
-  },
+
   {
     title: "Movie Search",
     description:
@@ -62,7 +53,7 @@ export const projects = [
   {
     title: "Quiz Time!",
     description:
-      "This React Trivia application was one of the funest projects I've done so far. Just enter your name and have fun.",
+      "This React Trivia application was one of the funest JavaScript projects I've done so far. Just enter your name and have fun.",
     image: "/images/quiz.jpg",
     tags: ["React", "CSS"],
     source: "https://react-quiz-time-app.netlify.app/",
@@ -72,9 +63,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Started casual coding." },
+  { year: 2020, text: "Started casual coding." },
   { year: 2020, text: "Learning HTML, CSS and JavaScript." },
   { year: 2020, text: "Building my first projects." },
-  { year: 2021, text: "Started learning ReactJS." },
+  { year: 2021, text: "Started learning ReactJS, Next.JS" },
   { year: 2021, text: "Building my first projects with ReactJS." },
 ];
