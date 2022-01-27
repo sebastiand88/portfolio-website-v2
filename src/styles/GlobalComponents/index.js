@@ -227,6 +227,7 @@ export const ButtonFront = styled.button`
   &:hover {
     color: #fff;
     background: #212d45;
+    font-size: ${({ alt }) => (alt ? "21px" : "25px")};
   }
 
   @media ${props => props.theme.breakpoints.md} {
